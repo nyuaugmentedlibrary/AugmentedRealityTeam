@@ -8,7 +8,7 @@ public class TempReservation : MonoBehaviour
     bool reserved = false;
     [SerializeField] GameObject[] walls = new GameObject[5];
     [SerializeField] TMP_Text resButtonTxt;
-    [SerializeField] int roomNum;
+    [SerializeField] string roomNum;
 
     Color openColor = Color.green;
     Color resColor = Color.red;
